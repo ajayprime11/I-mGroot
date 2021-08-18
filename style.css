@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
-.styletext{
-   width: 90%;
-   height: 10vh;
-   display: block;
-   margin: 1rem;
-   padding: 1rem;
-}
+body, html {
+    height: 100%;
+  }
+.bg {
+    background-color: #a1db00; ;
+    /* The image used */
+    background-image: url("./output-onlinegiftools\ \(2\).gif");
+  
+    /* Full height */
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .textstyle .headtext{
-   font-size: 25px;
+   font-size:  30px;
    font-weight: 500;
    font-family: 'Kalam', cursive;
+   text-align: center;
+   font-weight: 600;
+   color: black;
+   padding-left: 50vh;
+   padding-right: 50vh;
 }
 #output{
    
@@ -21,21 +34,27 @@
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--black);
-
+    color: black;
+    border-radius: 12px;
+    max-width: 100vh;
+    align-self: center;
+    padding-left: 200px;
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    text-align: left;
+     background-color: white;
+   
 }
-
-
-
-
-
-
 
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
 :root {
-    --primary: green;
+   
     --black: #333333;
     --width-break:600px
 }
@@ -47,7 +66,8 @@ body {
 }
 
 nav {
-    background-color: var(--primary);
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
     text-align: center;
 }
 
@@ -57,55 +77,27 @@ main {
     max-width: var(--width-break);
 }
 
-/** footers **/
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--primary);
-    text-align: center;
-}
-
-footer p {
-max-width: var(--width-break);
-margin: auto;
-}
-
-.footer .link {
-color: black
-}
-
-.footer .footer-header {
-font-weight: bold;
-font-size: large;
-}
-
-.footer ul {
-padding-inline-start: 0px;
-}
-.list-item-inline {
-display: inline;
-padding: 0rem 0.5rem;
-}
-
 textarea {
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
     width: 100%;
-    min-height: 20vh;
+    min-height: 10vh;
+    max-width: 100vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    text-align: left;
+     border-radius: 12px;
+   
+     
 }
 
-button {
-    align-self: center;
-        background-color: green;
+.button {
         border: none;
-        color: white;
-        padding: 10px;
+        background-color: #a1db00;
+        background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+        color: black;
+        padding: 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -115,6 +107,50 @@ button {
     font-family: 'Kalam', cursive;
     font-size: large;
     border-radius: 12px;
-  
+    border: 1px solid black;
 }
 
+/** footers **/
+
+footer {
+   
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--primary);
+        text-align: center;
+        padding-top: 50px;
+}
+
+footer p {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.footer .link {
+
+    color: black
+}
+
+.footer .footer-header {
+
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    padding-inline-start: 0px;
+}
+.list-item-inline {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    display: inline;
+    padding: 0rem 0.5rem;
+}
